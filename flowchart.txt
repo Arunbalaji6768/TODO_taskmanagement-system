@@ -1,0 +1,41 @@
+Start   
+      |
+ Initialization   
+      |
+ Display Tasks   
+       |   
+       |--> User Chooses Action (Add, Edit, Remove, Mark as Done, Exit)      
+       |     
+       |----> Add Task     
+       |        |       
+       |        |----> Accept new task         
+       |        | 
+       |        |----> Append task to the list
+       |        |       
+       |        |----> Go to 3 (Display Tasks)    
+       |----> Edit Task      
+       |        |     
+       |        |----> Allow user to select task 
+       |        |      
+       |        |----> Accept edited task   
+       |        |  
+       |        |----> Update task in the list   
+       |        |       
+       |        |----> Go to 3 (Display Tasks) 
+       |----> Remove Task  
+       |        |  
+       |        |----> Allow user to select task 
+       |        |   
+       |        |----> Remove selected task from the list   
+       |        |      
+       |        |----> Go to 3 (Display Tasks)       
+       |----> Mark as Done      
+       |        |       
+       |        |----> Allow user to select task  
+       |        |
+       |        |----> Toggle status of selected task     
+       |        |       
+       |        |----> Go to 3 (Display Tasks)        
+       |----> Exit               
+                       |
+                       |----> End
